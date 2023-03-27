@@ -4,10 +4,10 @@ git push https://tysseo7:<パーソナルアクセストークン>@github.com/tysseo7/piTrace
 
 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
 
+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
 
 
-
-git push https://tysseo7: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@github.com/tysseo7/piTracePayments.git
+git push https://tysseo7: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@github.com/tysseo7/piTracePayments.git
 
 
 

@@ -17,6 +17,18 @@ l_adr_checked=[]
 args = sys.argv
 root_adr    = str(args[1])
 
+#print("==============================")
+#print(type(args))
+
+f_mode = 0
+
+for xxx in args:
+  if xxx=="-to":
+    f_mode = 1
+  if xxx=="-from":
+    f_mode = 2
+
+
 
 
 
@@ -74,15 +86,17 @@ def listPayments( d_json ):
 #d_adr_recv={}
               #####
 
-              if not ( dd['from'] in d_adr_send.keys()):
-                d_adr_send[dd['from']]=float(dd['amount'])
-              else:
-                d_adr_send[dd['from']]=d_adr_send[dd['from']]+float(dd['amount'])
+              if f_mode != 1:
+                if not ( dd['from'] in d_adr_send.keys()):
+                  d_adr_send[dd['from']]=float(dd['amount'])
+                else:
+                  d_adr_send[dd['from']]=d_adr_send[dd['from']]+float(dd['amount'])
 
-              if not ( dd['to'] in d_adr_recv.keys()):
-                d_adr_recv[dd['to']]=float(dd['amount'])
-              else:
-                d_adr_recv[dd['to']]=d_adr_recv[dd['to']]+float(dd['amount'])
+              if f_mode != 2:
+                if not ( dd['to'] in d_adr_recv.keys()):
+                  d_adr_recv[dd['to']]=float(dd['amount'])
+                else:
+                  d_adr_recv[dd['to']]=d_adr_recv[dd['to']]+float(dd['amount'])
 
 
 

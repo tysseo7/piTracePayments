@@ -23,7 +23,13 @@ Utilizing the API of the Pi Network blockchain explorer, the following will be p
 
 Usage:
 
-python piTracePayments.py [address]
+python piTracePayments.py {address} [-to] [-from]
+
+{address} : root address for tracing
+[-to]   : tracing only sent address
+[-from] : tracing only recieved address
 
 example:
 python piTracePayments.py GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU 
+
+python piTracePayments.py GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU -to

@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 # グラフオブジェクトの作成
 G = nx.DiGraph()
 
+'''
 # ノードの追加
 G.add_node("GGGA")
 G.add_node("GGGB")
@@ -15,6 +16,7 @@ G.add_node("GGGD")
 G.add_node("GGGE")
 G.add_node("GGGF")
 G.add_node("GGGG")
+'''
 
 # エッジの追加
 G.add_edge("GGGA", "GGGB")

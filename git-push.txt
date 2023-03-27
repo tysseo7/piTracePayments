@@ -1,0 +1,60 @@
+git push https://tysseo7:<パーソナルアクセストークン>@github.com/tysseo7/piTracePayments.git
+
+
+
+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
+
+
+
+
+git push https://tysseo7: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@github.com/tysseo7/piTracePayments.git
+
+
+
+ブランチ
+
+git add ～
+
+git checkout master
+
+C:\Users\tseo\OneDrive\デスクトップ\Pi\appl\piTracePayments>git branch
+* master
+
+C:\Users\tseo\OneDrive\デスクトップ\Pi\appl\piTracePayments>git merge -s ours master
+Already up to date.
+
+C:\Users\tseo\OneDrive\デスクトップ\Pi\appl\piTracePayments>git checkout master
+Already on 'master'
+A       GDGV-03212115.jpg
+A       GDS7-03211613.jpg
+M       o2.csv
+A       o2.xlsx
+M       xxx.bat
+
+
+git commit -m "add 2nd job"
+git checkout master
+git pull origin master
+
+    From https://github.com/tysseo7/piTracePayments
+     * branch            master     -> FETCH_HEAD
+     * [new branch]      master     -> origin/master
+    Already up to date.
+
+git merge main
+
+   merge: main - not something we can merge
+
+git push origin master
+
+   Enumerating objects: 10, done.
+   Counting objects: 100% (10/10), done.
+   Delta compression using up to 4 threads
+   Compressing objects: 100% (7/7), done.
+   Writing objects: 100% (7/7), 4.26 MiB | 2.59 MiB/s, done.
+   Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+   remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   To https://github.com/tysseo7/piTracePayments.git
+      e3e85a8..bc10af4  master -> master
+
+

@@ -19,5 +19,9 @@ rem python searchPath.py
 
 
 
-python piTracePayments.py GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU -to > x.csv
+rem python a.py GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU -to > x.csv
 
+
+rem python searchPath.py
+
+python exPath.py

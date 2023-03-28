@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 
 
 
-f = open('foo.txt', 'r')
-f = open('t.csv', 'r')
+#f = open('foo.txt', 'r')
+f = open('x.csv', 'r')
 l_file = f.readlines()
 f.close()
 
@@ -119,7 +119,7 @@ def find_all_paths(graph, start, end, path=[]):
     return paths
 
 
-'''
+
 l_path = find_path(d01, 'GDS7', 'GDGV')
 print(l_path)
 l_path = find_path(d01, 'GDS7', 'GDPY')
@@ -131,11 +131,14 @@ print(l_path)
 l_path = find_path(d01, 'GDS7', 'GAHP')
 print(l_path)
 
+
+
 '''
 l_paths = find_all_paths(d01, 'GDS7', 'GDGV')
 for xxx in l_paths:
   print(xxx)
 print("length of pathes ... "+str(len(l_paths)))
+'''
 
 
 
